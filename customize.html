@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>customize you sign</title>
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Alex+Brush|Allura|Arizonia|Bad+Script|Bilbo+Swash+Caps|Caveat|Clicker+Script|Condiment|Cookie|Covered+By+Your+Grace|Damion|Dancing+Script|Dawning+of+a+New+Day|Dr+Sugiyama|Engagement|Gloria+Hallelujah|Great+Vibes|Henny+Penny|Herr+Von+Muellerhoff|Indie+Flower|Italianno|Joti+One|Kaushan+Script|Lobster|Marck+Script|Meddon|Montez|Mr+Dafoe|Mr+De+Haviland|Norican|Pacifico|Parisienne|Petit+Formal+Script|Pinyon+Script|Playball|Qwigley|Ranga|Rochester|Rock+Salt|Rouge+Script|Ruge+Boogie|Sacramento|Satisfy|Seaweed+Script|Shadows+Into+Light|Shadows+Into+Light+Two|Stalemate|Tangerine|Yellowtail|Yesteryear|Zeyada" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Kavivanar|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="mycss.css">
+  </head>
+  <body>
+    <div class="container mycontainer" id="nav-scroll">
+      <nav class="navbar navbar-expand-lg navbar-light my_nav">
+        <a class = "navbar-brand my-brand">CustSign</a>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link my-navitem" href="https://github.com/smalljjjack">GitHub<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link my-navitem" href="#">Font List</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link my-navitem" href="#customize">Customeize</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Customize you signature!</h1>
+      <p class="p1">No matter how the timeschange, A beatiful signature can always help you to make other good impression. Good signature is a powerful tool on your way to success. Now get your weapon and conqur the world.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col" style="width:50%; margin:2%;border: solid 3px #d0d8e5; font-size:2em">
+            <p>presidents signature</p>
+            <center><img src="wellknownsignature.png"  style="width: 80%; height: 80%" alt="image no found"></center>
+          </div>
+          <div class="col" style="width:50%; margin:2%;border: solid 3px #d0d8e5; font-size:2em">
+            <p>Your signature</p>
+            <img src="yoursignature.jpg" style="width: 80%; height: 80%; margin-left:50px;" alt="image no found">
+          </div>
+        </div>
+      </div>
+      <div data-spy="scroll" data-target="#nav-scroll" data-offset="0">
+        <p class = "p2" id="customize">Please type you name below:</p>
+      </div>
+      <center><input type="text" id="namearea" name="sign" placeholder="place type you name"><label style = "color:red"></label></center>
+      <hr width="400" style ="border-top: 1px solid black">
+      <center>
+        <p class = "p3">please choose your font and size</p>
+        <div class="selectors">
+          <select name="font" class="myselector" id="font_selector">
+            <option value="">Random Font</option>
+            <option value="Ranga" style = "font-family:Ranga">Ranga</option>
+            <option value="Indie Flower" style = "font-family:Indie Flower">Indie Flower</option>
+            <option value="Lobster" style = "font-family:Lobster">Lobster</option>
+            <option value="Pacifico" style = "font-family:Pacifico">Pacifico</option>
+            <option value="Shadows Into Light" style = "font-family:Shadows Into Light">Shadows Into Light</option>
+            <option value="Satisfy" style = "font-family:Satisfy">Satisfy</option>
+            <option value="Great Vibes" style = "font-family:Great Vibes">Great Vibes</option>
+            <option value="Engagement" style = "font-family:Engagement">Engagement</option>
+            <option value="Montez" style = "font-family:Montez">Montez</option>
+            <option value="Stalemate" style = "font-family:Stalemate">Stalemate</option>
+          </select>
+          <select name="font_size" class="myselector" id ="font_size_selector">
+            <option value="8">Small</option>
+            <option value="10" style="font-size:1.3em">Medium</option>
+            <option value="14" style="font-size:1.5em">Large</option>
+          </select>
+        </div>
+        <button type="button" name="confirm" class="btn btn-light mybutton">confirm your choice</button>
+      </center>
+      <p style="font-size:1.5em; margin-botton:20px;">Your Sign Here:</p>
+      <p></p>
+      <p id="customizedname">Your Sign</p>
+      <center>
+        <button type="button" class="btn btn-light mybutton" name="random">get a random sign</button>
+        <p></p>
+        <button type="button" name="Save" class="btn btn-light mybutton">Save and Compare</button>
+      </center>
+      <hr>
+      <div class="row">
+        <div class="col"><p></p></div>
+        <div class="col"><p></p></div>
+        <div class="col"><p></p></div>
+      </div>
+      <div class="row">
+        <div class="col"><p></p></div>
+        <div class="col"><p></p></div>
+        <div class="col"><p></p></div>
+      </div>
+      <hr>
+      <center><button type="button" class="btn btn-light mybutton" name="clean">Clean ALL</button></center>
+
+      <div class="container endcontainer">
+        <h1 style="margin-top:50px;margin-botton30px">Thank you for use!</h1>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="customize.js"></script>
+  </body>
+</html>
+<!-- font-family: 'Joti One', cursive;
+font-family: 'Ranga', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Damion', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Engagement', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Alex Brush', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Rochester', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Yesteryear', cursive;
+font-family: 'Norican', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Petit Formal Script', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Montez', cursive;
+font-family: 'Zeyada', cursive;
+font-family: 'Mr De Haviland', cursive;
+font-family: 'Clicker Script', cursive;
+font-family: 'Arizonia', cursive;
+font-family: 'Rouge Script', cursive;
+font-family: 'Qwigley', cursive;
+font-family: 'Seaweed Script', cursive;
+font-family: 'Bilbo Swash Caps', cursive;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Stalemate', cursive;
+font-family: 'Meddon', cursive;
+font-family: 'Condiment', cursive;
+font-family: 'Aguafina Script', cursive;
+font-family: 'Henny Penny', cursive;
+font-family: 'Dr Sugiyama', cursive;
+font-family: 'Ruge Boogie', cursive;-->

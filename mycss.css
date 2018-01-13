@@ -1,0 +1,75 @@
+html,body{
+  background-color: #e3e7ed;
+}
+.my_nav{
+  background-color: #ced7e2;
+}
+.mycol{
+  margin:5%;
+  border: solid 3px #d0d8e5;
+  border-radius:10px;
+  font-size:3.5em;
+}
+.mycontainer{
+  font-family:'Kavivanar', cursive;
+}
+p{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 6em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.my-brand{
+  font-size: 4em;
+  font-family: 'Italianno', cursive
+}
+.my-navitem{
+  font-size:1.3em;
+}
+.p1{
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.p2{
+  font-size: 2.0em;
+  margin-top: 60px;
+}
+#namearea{
+  margin-top: 10px;
+  border:none;
+  background: transparent;
+  text-align: center;
+  font-size:2em;
+}
+.p3{
+  margin-top: 20px;
+  font-size: 2.0em;
+}
+.selectors{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 1.2em;
+}
+.myselector{
+  background: transparent;
+  border-radius: 5%;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 180px;
+}
+select, #font_selector {
+  padding-left: 25px;
+}
+select, #font_size_selector{
+  padding-left: 50px;
+}
+.mybutton{
+  font-size: 1.8em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
