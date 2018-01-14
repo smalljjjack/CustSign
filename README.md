@@ -1,17 +1,31 @@
 # CustSign
-This is the project I did for hackthon WPI
+Inspiration
+Signatures are important
+With the development of computer technique, people is doing less and less handwriting now
 
-The main function of this project is to generate customized signature for vistors.
+But there is still one thing we could't avoid to write almost everyday - name.
 
-Personally, I beleive a good signature is alwasy helpful for you to leave other a good impression. In some sense, handwriting could display
-some personalities. So I want to design this app to help people choose their favorite fonts and use it for their signature.
+A personalized and fancy signature can help you make impression on others.
 
-I collected more than 50 fonts from google font and use bootstrap and my personal css file stylish my user interface.
+It's also a tool to build your confidence.
 
-The function is very easy to understand. You have to tyoe your name in the textarea, and you can choose specific font and font-size to build
-signature. And you can also simply use the get random function to get signature with random font. And you can compare different signatures 
-in my contianier. After the web generate a signature for you, just simple click the save button. The the app will save this signature in 
-the board, then you can compare different fonts and choose you favorite one.
+So let's get impressive signature within just 30 seconds.
 
+What it does
+Customize signature for user automatically. Generate signs in beautiful and personalized style for users.
 
----1/13/2018
+How I built it
+js, html/css, some framework like jquery, bootstrap and mostly my personal css style sheet.
+
+Challenges I ran into
+Solo work.
+
+Accomplishments that I'm proud of
+Build most css style by myself. Build entire web without using much API. I think there is not any web app are doing the same function, so it's quite fresh idea.
+
+What's next for CustSign
+More fancy font
+Less bias
+Machine learning analysis
+More personalized
+E-signature
